@@ -1,0 +1,25 @@
+{
+  "name": "generator-lishunan",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Li Shunan",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.20.2"
+  },
+  "files": [
+    "app"
+  ],
+  "repository":
+  {
+    "type" : "git",
+    "url" : "https://github.com/lishunan246/generator-lishunan.git"
+  }
+}
