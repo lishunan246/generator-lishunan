@@ -31,12 +31,13 @@ module.exports=generators.Base.extend({
 
                 break;
             default :
-                this.log("Usage:\nyo lishunan new --name \'appName\' --path \'public\'");
+                this.log("Usage:\nyo lishunan new --name appName --path public");
                 this.log("Current root path:");
                 this.log(this.destinationRoot());
         }
     },
     _newNgApp:function(name,path){
+        this.log(path);
         this.fs.copyTpl(
             this.templatePath('index.html'),
             this.destinationPath(path+'/'+name+'.html'),
