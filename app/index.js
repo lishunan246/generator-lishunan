@@ -28,6 +28,9 @@ module.exports=generators.Base.extend({
                         done();
                     }.bind(this));
                 }
+		else{
+			this._newNgApp(name,path);
+		}
 
                 break;
             default :
